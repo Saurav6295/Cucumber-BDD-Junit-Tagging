@@ -25,8 +25,9 @@ public class StepDefinition {
 		ChromeOptions options = new ChromeOptions();
 		options.setBinary("C:/Program Files/Google/Chrome/Application/chrome/chrome.exe");
 
+		// driver object has been assigned the value of URL 
 		System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Google\\Chrome\\Application\\chrome driver\\chromedriver.exe");
-		// ooper waaale line me driver object ko assigned hua chrome driver ka path
+		
 		driver = new ChromeDriver(options);
 		// driver looks for chrome through options object
 
